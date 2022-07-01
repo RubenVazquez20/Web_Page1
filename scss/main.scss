@@ -1,0 +1,117 @@
+// Transpilador de scss a css
+
+// Importar a mi archivo de variables globales
+@use 'global' as *;
+
+
+.blog {
+    background-color: #ffffff;
+    max-width: unset;
+    padding: 5% 10%;
+
+    .title {
+        @extend %base-title;
+    }
+
+    .process-list {
+        margin-top: 40px;
+        margin-bottom: 36px;
+
+        .process {
+            margin-bottom: 25px;
+
+            &>div {
+                &>h3 {
+                    color: $dark-green-title;
+                    margin-bottom: 0;
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+
+                &>p {
+                    color: $dark-green-text;
+                    margin: 0;
+                }
+            }
+
+            .process-icon {
+                width: 60px;
+                height: 60px;
+                margin-right: 10px;
+
+
+                img {
+                    height: 100%;
+                }
+            }
+
+            .process-description{
+                
+                &>h3{
+                    font-size: 26px;
+                    font-weight: 400;
+                }
+
+                &>p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    button {
+        height: auto;
+        border-radius: 8px;
+        padding: 12px;
+        width: 180px;
+        margin-bottom: 15px;
+    }
+
+    .card-title {
+        color: $gray-title;
+        font-weight: 500;
+    }
+
+    .metadata {
+
+        .category {
+            color: #67b54b;
+            font-weight: bolder;
+        }
+
+
+        .read-time {
+            color: $gray-21;
+            font-weight: lighter;
+        }
+    }
+
+    .card-text {
+        color: $gray-text;
+        font-size: 18px;
+        line-height: 1.5em;
+        min-height: 6em;
+    }
+
+    .card {
+        .author {
+            margin-left: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            padding-left: 5px;
+
+            &>img {
+                border-radius: 50%;
+                width: 35px;
+                height: 35px;
+            }
+
+            &>p{
+                margin-left: 5px;
+                margin-top: 18px;
+                font-weight: 500;
+                font-size: 12px;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+// Crear variables por utilizar en nuestro main.scss
+// _global.scss
+
+// Colors
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$white: #ffffff;
+$gray-title: #4a4a4a;
+$green-p: #67b54b;
+$gray-21: #6c757d;
+$gray-text: #4a4a4a;
+
+
+// Fonts
+$font-title: "Alegreya", serif;
+
+// Para hacer anidaciones es necesario usar % en lugar de $
+%base-title{
+    font-family: $font-title;
+    color: $dark-green-text;
+}
