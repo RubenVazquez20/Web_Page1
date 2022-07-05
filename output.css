@@ -3,6 +3,16 @@
   color: #135359;
 }
 
+.banner {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.banner > img {
+  vertical-align: middle;
+  border-style: none;
+  width: 70%;
+}
+
 .blog {
   background-color: #ffffff;
   max-width: unset;
@@ -81,6 +91,283 @@
   margin-top: 18px;
   font-weight: 500;
   font-size: 12px;
+}
+
+.matcha-works {
+  display: grid;
+  grid-template: repeat(2, 33% 67%)/repeat(4, 1fr);
+  grid-template-areas: "enca enca enca enca" "col1 col2 col3 col4";
+  height: 150vh;
+  width: 80%;
+  margin: 0 auto;
+  grid-column-gap: 30px;
+}
+.matcha-works .encabezado {
+  grid-area: enca;
+  background-color: #ffffff;
+  text-align: center;
+}
+.matcha-works .encabezado > h3 {
+  color: #025157;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 800;
+  font-family: "Alegreya", serif;
+  margin: 80px 0 8px 0;
+}
+.matcha-works .encabezado > p {
+  color: #46484c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  margin: 16px 18%;
+}
+.matcha-works .encabezado > p > a {
+  color: #67b54b;
+  text-decoration: none;
+}
+.matcha-works .encabezado > button {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 12px 12px 12px;
+  height: 45px;
+  margin-left: 0;
+  border-radius: 8px;
+  margin-top: 6px;
+  border: none;
+}
+.matcha-works .col1 {
+  grid-area: col1;
+  background-color: #ffffff;
+  border: 2px solid #d6ddde;
+  border-radius: 5px;
+}
+.matcha-works .col1 .arriba {
+  position: relative;
+  height: 70%;
+  padding: 0 0 0 0;
+}
+.matcha-works .col1 .arriba .iconi {
+  position: absolute;
+  margin: 0 0 0 0;
+}
+.matcha-works .col1 .arriba .iconi > img {
+  width: 40px;
+}
+.matcha-works .col1 .arriba .gran {
+  height: auto;
+  object-fit: contain;
+}
+.matcha-works .col1 .arriba .gran > img {
+  width: 100%;
+  margin-top: 50%;
+}
+.matcha-works .col1 .abajo {
+  height: auto;
+  background-color: #ffffff;
+  margin: 0 0 0 0;
+}
+.matcha-works .col1 .abajo > h3 {
+  font-size: 28px;
+  line-height: 36px;
+  font-family: "Alegreya", serif;
+  color: #025157;
+  font-weight: 800;
+  text-align: center;
+  margin: 12px auto;
+}
+.matcha-works .col1 .abajo > p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #46484c;
+  font-weight: 400;
+  height: 85px;
+  margin-bottom: 16px;
+  text-align: left;
+  margin: 12px 20px;
+}
+.matcha-works .col1 .abajo > a {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.matcha-works .col2 {
+  grid-area: col2;
+  background-color: #ffffff;
+  border: 2px solid #d6ddde;
+  border-radius: 5px;
+}
+.matcha-works .col2 .arriba {
+  position: relative;
+  height: 70%;
+  padding: 0 0 0 0;
+}
+.matcha-works .col2 .arriba .iconi {
+  position: absolute;
+  margin: 0 0 0 0;
+}
+.matcha-works .col2 .arriba .iconi > img {
+  width: 40px;
+}
+.matcha-works .col2 .arriba .gran {
+  height: auto;
+  object-fit: contain;
+}
+.matcha-works .col2 .arriba .gran > img {
+  width: 100%;
+  margin-top: 50%;
+}
+.matcha-works .col2 .abajo {
+  height: auto;
+  background-color: #ffffff;
+  margin: 0 0 0 0;
+}
+.matcha-works .col2 .abajo > h3 {
+  font-size: 28px;
+  line-height: 36px;
+  font-family: "Alegreya", serif;
+  color: #025157;
+  font-weight: 800;
+  text-align: center;
+  margin: 12px auto;
+}
+.matcha-works .col2 .abajo > p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #46484c;
+  font-weight: 400;
+  height: 85px;
+  margin-bottom: 16px;
+  text-align: left;
+  margin: 12px 20px;
+}
+.matcha-works .col2 .abajo > a {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.matcha-works .col3 {
+  grid-area: col3;
+  background-color: #ffffff;
+  border: 2px solid #d6ddde;
+  border-radius: 5px;
+}
+.matcha-works .col3 .arriba {
+  position: relative;
+  height: 70%;
+  padding: 0 0 0 0;
+}
+.matcha-works .col3 .arriba .iconi {
+  position: absolute;
+  margin: 0 0 0 0;
+}
+.matcha-works .col3 .arriba .iconi > img {
+  width: 40px;
+}
+.matcha-works .col3 .arriba .gran {
+  height: auto;
+  object-fit: contain;
+}
+.matcha-works .col3 .arriba .gran > img {
+  width: 100%;
+  margin-top: 50%;
+}
+.matcha-works .col3 .abajo {
+  height: auto;
+  background-color: #ffffff;
+  margin: 0 0 0 0;
+}
+.matcha-works .col3 .abajo > h3 {
+  font-size: 28px;
+  line-height: 36px;
+  font-family: "Alegreya", serif;
+  color: #025157;
+  font-weight: 800;
+  text-align: center;
+  margin: 12px auto;
+}
+.matcha-works .col3 .abajo > p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #46484c;
+  font-weight: 400;
+  height: 85px;
+  margin-bottom: 16px;
+  text-align: left;
+  margin: 12px 20px;
+}
+.matcha-works .col3 .abajo > a {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.matcha-works .col4 {
+  grid-area: col4;
+  background-color: #ffffff;
+  border: 2px solid #d6ddde;
+  border-radius: 5px;
+}
+.matcha-works .col4 .arriba {
+  position: relative;
+  height: 70%;
+  padding: 0 0 0 0;
+}
+.matcha-works .col4 .arriba .iconi {
+  position: absolute;
+  margin: 0 0 0 0;
+}
+.matcha-works .col4 .arriba .iconi > img {
+  width: 40px;
+}
+.matcha-works .col4 .arriba .gran {
+  height: auto;
+  object-fit: contain;
+}
+.matcha-works .col4 .arriba .gran > img {
+  width: 100%;
+  margin-top: 50%;
+}
+.matcha-works .col4 .abajo {
+  height: auto;
+  background-color: #ffffff;
+  margin: 0 0 0 0;
+}
+.matcha-works .col4 .abajo > h3 {
+  font-size: 28px;
+  line-height: 36px;
+  font-family: "Alegreya", serif;
+  color: #025157;
+  font-weight: 800;
+  text-align: center;
+  margin: 12px auto;
+}
+.matcha-works .col4 .abajo > p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #46484c;
+  font-weight: 400;
+  height: 85px;
+  margin-bottom: 16px;
+  text-align: left;
+  margin: 12px 20px;
+}
+.matcha-works .col4 .abajo > a {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=output.css.map */

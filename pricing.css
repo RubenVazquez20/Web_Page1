@@ -14,6 +14,12 @@ h1 {
     margin-bottom: 24px;
 }
 
+p{
+  color: #46484c;
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
 .header {
     margin-top: 200px;
 }
